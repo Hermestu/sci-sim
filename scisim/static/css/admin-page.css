@@ -12,3 +12,42 @@
     margin: auto;
     margin-top: 200px;
 }
+
+
+
+#pages-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 2px;
+    border: 2px solid #ddd;
+}
+
+.page {
+    margin: 5px;
+    border: 2px solid grey;
+}
+
+.content {
+    margin: 5px;
+    border: 1px solid #ddd;
+}
+
+.paratext {
+    width: 80%;
+    height:100px;
+}
+
+.linked-page {
+    margin: 5px;
+}
+
+.page-attrs {
+    margin: 5px;
+}
+
+
+#page span{
+    width: 100%;
+    height: 
+}

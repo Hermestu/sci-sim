@@ -1,0 +1,25 @@
+
+    <body>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/admin-page.css">
+        <script type="text/javascript" src="page-editor/content-manager.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <div id="pages-container">
+        <div id="pages">
+        <div class="page" id="page-num-0"><div class="page-header"><h3 onClick="updateTitle(this)">Page Title</h3></div>
+            <div id="add-elem-0">
+                <span></span>
+                <button class="glyphicon glyphicon-font" onClick="addElement('text',0)">   Text</button>
+                <button class="glyphicon glyphicon-picture" onClick="addElement('image',0)">   Image</button>
+                <button class="glyphicon glyphicon-edit" onClick="addElement('input',0)">   Input</button>
+                <button class="glyphicon glyphicon-share" onClick="addElement('button',0)">   Button</button>
+                <span></span>
+                <div class='linked-page'>Link Page:<button>Dropdown</buttonn</div>
+            </div>
+            <div class="page-attrs"> Page Attributes: </div>
+        </div>
+        </div>
+        </div>
+        
+        <button onclick='addPage()'>Add a new Page</button>
+    </body>
