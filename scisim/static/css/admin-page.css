@@ -51,3 +51,17 @@
     width: 100%;
     height: 
 }
+
+/*.clearfix ul{
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    list-style:none;
+    list-style-position:center;
+    background-color: green;
+}
+
+.clearfix li{
+    text-align:left;
+    color: blue;
+}*/
